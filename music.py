@@ -1,17 +1,17 @@
 import pygame
 
-# Müzik dosyasının adını ve yolunu belirtin
-music_file = "Maxwell the Cat Theme..mp3"
+# Specify the name and path of the music file
+music_file = "Maxwell The Cat Theme.mp3"
 
-# Pygame'in başlatılması
+# Initialize pygame
 pygame.init()
 
-# Müzik yükleniyor
+# Load the music
 pygame.mixer.music.load(music_file)
 
-# Müzik çalınmaya başlıyor
+# Start playing the music
 pygame.mixer.music.play()
 
-# Sonsuza kadar bekleyin (Ctrl+C ile çıkılabilir)
+# Keep the program running until the music finishes (can be exited with Ctrl+C)
 while True:
     pass
